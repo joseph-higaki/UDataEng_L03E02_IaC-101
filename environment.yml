@@ -1,0 +1,6 @@
+name: 
+dependencies:
+- python=3.8
+- jupyter
+- pandas
+- boto3

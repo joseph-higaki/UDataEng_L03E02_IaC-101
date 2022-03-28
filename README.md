@@ -8,14 +8,14 @@ Notebook to create:
 
 
 Solution: Infrastructure as Code
-Save the AWS Access key
-Load DWH Params from a file
-Create clients for IAM, EC2, S3, and Redshift
-Check out the sample data sources on S3
-Create an IAM ROLE
-Create the Redshift Cluster
-Describe the cluster to see its status
-Take note of the cluster endpoint and role ARN
-Open an incoming TCP port to access the cluster ednpoint
-Make sure you can connect to the cluster
-Clean up your resources to avoid reaching billing limits
+1. Save the AWS Access key
+1. Load DWH Params from a file
+1. Create clients for IAM, EC2, S3, and Redshift
+1. Check out the sample data sources on S3
+1. Create an IAM ROLE
+1. Create the Redshift Cluster
+1. Describe the cluster to see its status
+1. Take note of the cluster endpoint and role ARN
+1. Open an incoming TCP port to access the cluster ednpoint
+1. Make sure you can connect to the cluster
+1. Clean up your resources to avoid reaching billing limits

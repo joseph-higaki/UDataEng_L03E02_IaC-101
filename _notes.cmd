@@ -10,6 +10,9 @@ conda env create --prefix C:\Users\josep\OneDrive\Documentos\projects\UdacityDen
 rem /***********activate the environment ******************/
 conda activate C:\Users\josep\OneDrive\Documentos\projects\UdacityDeng\UDENG_L03_E02_IaC\IaC-101-env
 
+rem /***********DE - activate the environment ******************/
+conda deactivate
+
 rem /***********when requirements need updated environment **********/
 conda env update --file environment.yml --prune
 
@@ -21,3 +24,10 @@ C:\Users\josep\OneDrive\Documentos\projects\UdacityDeng\UDENG_L03_E02_IaC\IaC-10
 ~\OneDrive\Documentos\projects\UdacityDeng\UDENG_L03_E02_IaC\IaC-101-env\python.exe
 
 rem /*********** git notess ******************/
+git init 
+git add .
+git commit -m "Initial commit"
+git branch -m master main
+git status
+git remote add origin git@github.com:joseph-higaki/UDataEng_L03E02_IaC-101.git
+git push -u origin main
